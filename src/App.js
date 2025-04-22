@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/home'
 import Search from './pages/search'
 import About from './pages/about'
-import Setting from './pages/setting'
+import Products from './pages/products'
 import Profile from './pages/profile'
 import Slidebar from './pages/nav'
 import {Routes, Route} from 'react-router-dom';
@@ -20,7 +20,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/search" element={<Search/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/setting" element={<Setting/>}/>
+      <Route path="/products" element={<Products/>}/>
       <Route path="/profile" element={<Profile/>}/>
     </Routes>
     </div>

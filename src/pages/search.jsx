@@ -31,7 +31,7 @@ function Search() {
   ];
 
   return (
-    <div>
+    <div style={{marginLeft:-120,marginTop:40}}>
         <input type="number" className='form-control' onChange={Filter}  placeholder="year"/>
 
       <h1>US Data</h1>

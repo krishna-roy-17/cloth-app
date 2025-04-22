@@ -5,7 +5,7 @@ import {
   ProfileOutlined,
   InfoCircleOutlined,
   SearchOutlined,
-  SettingOutlined,
+  ProductOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   HomeOutlined,
@@ -17,8 +17,8 @@ const items = [
   { key: '3', icon: <InfoCircleOutlined/>, label:<Link to='/about'>About</Link> },
   {
     key: '4',
-    label: <Link to='/setting'>Setting</Link>,
-    icon: <SettingOutlined />,
+    label: <Link to='/products'>Products</Link>,
+    icon: <ProductOutlined />,
   },
   {
     key: '5',

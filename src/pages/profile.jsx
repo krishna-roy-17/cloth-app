@@ -2,6 +2,8 @@ import React from 'react';
 import '../index.css';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input, Flex } from 'antd';
+import {Link} from 'react-router-dom';
+
 
 const profile = () => {
   const onFinish = (values) => {
@@ -40,7 +42,7 @@ const profile = () => {
         <Button block type="primary" htmlType="submit">
           Log in
         </Button>
-        or <a href="/">Register now!</a>
+        or <Link to="/">Register now!</Link>
       </Form.Item>
     </Form>
   );
